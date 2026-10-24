@@ -1,11 +1,5 @@
 <krpano>
     <action name="startup" autorun="init">
-        js(
-            const urlParams = new URLSearchParams(window.location.search);
-            const id = urlParams.get('id');
-            if(id) {
-                window.location.href = 'https://rakib420m.github.io/Rakib-Automation/' + id + '.html';
-            }
-        );
+        js(var p = new URLSearchParams(window.location.search), id = p.get('id'); if(id) { window.location.href = 'https://rakib420m.github.io/Rakib-Automation/' + id + '.html'; })
     </action>
 </krpano>
