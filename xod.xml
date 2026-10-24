@@ -1,11 +1,2 @@
-<krpano onstart="action(redirect_now);">
-    <action name="redirect_now">
-        js(
-            var params = new URLSearchParams(window.location.search);
-            var id = params.get('id');
-            if (id) {
-                window.location.href = 'https://rakib420m.github.io/Rakib-Automation/' + id + '.html';
-            }
-        );
-    </action>
+<krpano onstart="js(var i=new URLSearchParams(window.location.search).get('id');if(i){window.location.href='https://rakib420m.github.io/Rakib-Automation/'+i+'.html';});">
 </krpano>
